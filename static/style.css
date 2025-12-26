@@ -1,0 +1,62 @@
+/* YugmaCare Minimalist */
+.stApp { background-color: #0f172a; color: #f8fafc; }
+
+/* --- THE INVISIBLE BUTTON HACK --- */
+/* 1. Target the recorder container */
+.stMicRecorder {
+    display: flex !important;
+    justify-content: flex-end !important; /* Align right */
+    width: auto !important;
+}
+
+/* 2. Strip the button naked */
+.stMicRecorder button {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 30px !important;       /* Tiny width */
+    height: 30px !important;      /* Tiny height */
+    min-height: 0px !important;   /* Override Streamlit defaults */
+    line-height: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* 3. Style the Icon (The emoji inside) */
+.stMicRecorder button p, .stMicRecorder button span, .stMicRecorder button div {
+    font-size: 20px !important;   /* Perfect icon size */
+    color: #ef4444 !important;    /* Red color */
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* 4. Tiny hover glow only */
+.stMicRecorder button:hover {
+    background-color: rgba(239, 68, 68, 0.15) !important;
+    border-radius: 50% !important;
+    color: #ff8888 !important;
+}
+
+/* --- FORM & INPUTS --- */
+.stTextArea textarea, .stTextInput input {
+    background-color: #1e293b !important; 
+    border: 1px solid #334155 !important;
+    color: #f8fafc !important;
+    border-radius: 8px !important;
+}
+.stTextArea textarea:focus, .stTextInput input:focus {
+    border-color: #38bdf8 !important;
+}
+
+/* --- DIALERS --- */
+.dial-box { 
+    background: rgba(255, 255, 255, 0.03); 
+    border: 1px solid #334155; 
+    padding: 10px; 
+    border-radius: 8px; 
+    text-align: center; 
+}
+.call-link { color: #38bdf8 !important; text-decoration: none !important; font-weight: bold; }
