@@ -1,0 +1,26 @@
+{
+  "en": {
+    "title": "YugmaCare Emergency Response",
+    "tagline": "Verified Medical Help & First Aid",
+    "placeholder": "Describe the situation (e.g., chest pain, accident...)",
+    "get_help": "Get Immediate Help",
+    "emergency_numbers": "Emergency Numbers",
+    "first_aid": "First Aid Guidance"
+  },
+  "hi": {
+    "title": "युग्मकेयर आपातकालीन सेवा",
+    "tagline": "सत्यापित चिकित्सा सहायता और प्राथमिक चिकित्सा",
+    "placeholder": "स्थिति का वर्णन करें (जैसे सीने में दर्द, दुर्घटना...)",
+    "get_help": "तुरंत सहायता प्राप्त करें",
+    "emergency_numbers": "आपातकालीन नंबर",
+    "first_aid": "प्राथमिक चिकित्सा मार्गदर्शन"
+  },
+  "mr": {
+    "title": "युग्मकेयर आपत्कालीन सेवा",
+    "tagline": "सत्यापित वैद्यकीय मदत आणि प्रथमोपचार",
+    "placeholder": "परिस्थितीचे वर्णन करा (उदा. छातीत दुखणे, अपघात...)",
+    "get_help": "त्वरीत मदत मिळवा",
+    "emergency_numbers": "आपत्कालीन क्रमांक",
+    "first_aid": "प्रथमोपचार मार्गदर्शन"
+  }
+}
