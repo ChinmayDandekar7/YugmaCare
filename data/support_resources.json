@@ -1,0 +1,29 @@
+{
+  "medical": {
+    "schemes": [
+      {"name": "Ayushman Bharat (PM-JAY)", "description": "Free ₹5 Lakh health cover for families. Active 2025."},
+      {"name": "PM Jan Aushadhi", "description": "Generic medicines at 90% lower cost."}
+    ],
+    "ngos": [
+      {"name": "Ziqitza Health", "description": "Verified Private Ambulance Network.", "contact": "9700001298"},
+      {"name": "Red Cross India", "description": "Blood bank and disaster support.", "contact": "01123359379"}
+    ]
+  },
+  "maternal": {
+    "schemes": [
+      {"name": "Janani Suraksha Yojana", "description": "Cash incentive for institutional delivery."},
+      {"name": "PMMVY", "description": "₹5,000 for nutrition support."}
+    ],
+    "ngos": [
+      {"name": "SNEHA", "description": "Maternal health specialist NGO.", "contact": "9167535765"}
+    ]
+  },
+  "cardiac": {
+    "schemes": [
+      {"name": "Rashtriya Arogya Nidhi", "description": "Financial aid for BPL heart patients."}
+    ],
+    "ngos": [
+      {"name": "Heart Care Foundation", "description": "Emergency heart guidance.", "contact": "9811090242"}
+    ]
+  }
+}
