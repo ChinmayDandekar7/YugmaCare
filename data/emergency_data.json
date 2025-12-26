@@ -1,0 +1,56 @@
+{
+  "numbers": [
+    ["112", "National Help"],
+    ["108", "Ambulance"],
+    ["9343180000", "Red.Health (Private)"],
+    ["102", "Maternal Help"]
+  ],
+  "heart": {
+    "cards": [
+      {
+        "title": "Heart Attack / Chest Pain",
+        "steps": ["Make the person sit down and rest", "Loosen tight clothing", "Call 108 or Private Ambulance immediately", "Administer Aspirin if prescribed"]
+      }
+    ]
+  },
+  "bleeding": {
+    "cards": [
+      {
+        "title": "Severe Bleeding",
+        "steps": ["Apply direct pressure with a clean cloth", "Elevate the injured part", "Do not remove blood-soaked bandages; add more on top"]
+      }
+    ]
+  },
+  "burn": {
+    "cards": [
+      {
+        "title": "Burn Injury",
+        "steps": ["Run cool (not cold) water over the burn for 20 mins", "Remove jewelry before swelling starts", "Cover with loose sterile dressing"]
+      }
+    ]
+  },
+  "poison": {
+    "cards": [
+      {
+        "title": "Snake Bite / Poisoning",
+        "steps": ["Keep the person still and calm", "Do not cut or suck the wound", "Note the appearance of the snake if possible", "Rush to the hospital"]
+      }
+    ]
+  },
+  "maternal": {
+    "cards": [
+      {
+        "title": "Pregnancy / Labor",
+        "steps": ["Keep the mother comfortable and lying on her left side", "Time the contractions", "Call 102 (Janani Suraksha) or 108"]
+      }
+    ]
+  },
+  "general": {
+    "cards": [
+      {
+        "title": "General Emergency",
+        "steps": ["Ensure the area is safe", "Check responsiveness", "Call 108 immediately"]
+      }
+    ]
+  }
+}
