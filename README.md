@@ -30,3 +30,81 @@ A complete Streamlit-based web application for immediate medical emergency guida
 ```bash
 git clone [https://github.com/your-username/yugmacare.git](https://github.com/your-username/yugmacare.git)
 cd yugmacare
+
+####2. Install Python dependencies
+Bash
+
+pip install -r requirements.txt
+3. Run the application
+Bash
+
+streamlit run app.py
+Usage
+1. Launch the App
+Run the command above.
+
+The app will open in your default browser at http://localhost:8501.
+
+2. Select Language
+Use the sidebar to choose between English, Hindi, or Marathi.
+
+3. Describe Emergency
+Type the emergency situation in the text box (e.g., "Snake bite", "Road accident").
+
+Click "Get Help".
+
+4. Follow Guidance
+Immediate: Follow the on-screen First Aid steps.
+
+Call: Use the one-tap buttons to call ambulances.
+
+Navigate: View the map to find the nearest hospital.
+
+5. Access Resources
+Scroll down to view applicable Government Schemes and NGO contacts for financial/medical support.
+
+Project Structure
+yugmacare/
+├── app.py                  # Main Streamlit application entry point
+├── logic/
+│   └── intent_engine.py    # NLP logic for analyzing user input
+├── data/
+│   ├── emergency_data.json # First aid protocols and steps
+│   ├── support_resources.json # NGO and Govt scheme database
+│   └── emergency_texts.json # Multilingual UI text strings
+├── static/
+│   └── style.css           # Custom CSS for UI styling
+├── requirements.txt        # Python dependencies
+└── README.md               # This file
+Machine Learning & AI Features
+Rule-Based NLP: Uses keyword mapping and fuzzy matching to detect emergency types from unstructured text.
+
+Intent Recognition: Classifies inputs into categories (e.g., cardiac, trauma, toxicity) to serve relevant data.
+
+Location Intelligence: Google Maps integration for spatial queries and hospital filtering.
+
+Data Sources
+First Aid Data: Standard protocols sourced from medical guidelines.
+
+Hospital Data: Dynamically fetched via Google Maps.
+
+Schemes & NGOs: Verified list of national schemes and support organizations.
+
+Troubleshooting
+Map not loading:
+
+Ensure you have an internet connection, as the embedded map fetches data live from Google.
+
+ModuleNotFoundError:
+
+Run pip install -r requirements.txt again to ensure all libraries (streamlit, etc.) are installed.
+
+Port already in use:
+
+If port 8501 is taken, run:
+
+Bash
+
+streamlit run app.py --server.port 8502
+License
+This project is provided as-is for educational and development purposes. It is a prototype and should not be used as a replacement for professional medical advice.
