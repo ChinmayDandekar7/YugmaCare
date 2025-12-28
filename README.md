@@ -31,7 +31,7 @@ A complete Streamlit-based web application for immediate medical emergency guida
 git clone [https://github.com/your-username/yugmacare.git](https://github.com/your-username/yugmacare.git)
 cd yugmacare
 
-####2. Install Python dependencies
+###2. Install Python dependencies
 Bash
 
 pip install -r requirements.txt
