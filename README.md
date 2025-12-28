@@ -104,7 +104,7 @@ yugmacare/
 ```
 
 ### Port already in use:
-### * **If port 8501 is taken, run:**
+* **If port 8501 is taken, run:**
 ```
   streamlit run app.py --server.port 8502
 ```
