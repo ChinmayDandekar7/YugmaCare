@@ -58,9 +58,10 @@ streamlit run app.py
 * **Scroll down to view applicable Government Schemes and NGO contacts for financial/medical support.**
 
 # Project Structure
+
 ## Project Structure
 
-**`
+```text
 yugmacare/
 ├── app.py                  # Main Streamlit application
 ├── logic/
@@ -73,7 +74,7 @@ yugmacare/
 │   └── style.css           # Custom CSS for UI styling
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
-`**
+```
 
 ### Machine Learning & AI Features
 * **Rule-Based NLP: Uses keyword mapping and fuzzy matching to detect emergency types from unstructured text.**
