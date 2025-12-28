@@ -2,7 +2,7 @@
 
 A complete Streamlit-based web application for immediate medical emergency guidance, hospital localization, and resource mobilization.
 
-## Features
+#Features
 
 ### 🚨 Emergency Triage
 * **Instant Analysis:** Uses an NLP intent engine to analyze user input (e.g., "chest pain", "severe burns") and determine urgency.
