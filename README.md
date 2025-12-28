@@ -24,7 +24,7 @@ A complete Streamlit-based web application for immediate medical emergency guida
 * **Lightweight Architecture:** Optimized for fast loading even on low-bandwidth networks.
 * **Privacy Focused:** No personal data retention after the session ends.
 
-## Installation
+# Installation
 
 ### 1. Clone or download the project
 '''bash 
