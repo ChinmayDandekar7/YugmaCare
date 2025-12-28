@@ -102,7 +102,7 @@ yugmacare/
 
 ### Port already in use:
 * **If port 8501 is taken, run:**
-  streamlit run app.py --server.port 8502
+  ```streamlit run app.py --server.port 8502```
 
 # license
 This project is provided as-is for educational and development purposes. It is a prototype and should not be used as a replacement for professional medical advice.
