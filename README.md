@@ -59,7 +59,7 @@ streamlit run app.py
 
 # Project Structure
 yugmacare/
-├── app.py                  # Main Streamlit application entry point
+├── app.py                  # Main Streamlit application
 ├── logic/
 │   └── intent_engine.py    # NLP logic for analyzing user input
 ├── data/
@@ -69,7 +69,7 @@ yugmacare/
 ├── static/
 │   └── style.css           # Custom CSS for UI styling
 ├── requirements.txt        # Python dependencies
-└── README.md               # This file
+└── README.md               # Project documentation
 
 ### Machine Learning & AI Features
 * **Rule-Based NLP: Uses keyword mapping and fuzzy matching to detect emergency types from unstructured text.**
