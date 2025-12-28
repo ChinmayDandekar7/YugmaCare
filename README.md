@@ -100,8 +100,9 @@ yugmacare/
 ### ModuleNotFoundError:
 * **Run:**
 ```
-  pip install -r requirements.txt again to ensure all libraries (streamlit, etc.) are installed.
+  pip install -r requirements.txt 
 ```
+again to ensure all libraries (streamlit, etc.) are installed.
 
 ### Port already in use:
 * **If port 8501 is taken, run:**
