@@ -4,7 +4,7 @@ A complete Streamlit-based web application for immediate medical emergency guida
 
 # Features
 
-## 🚨 Emergency Triage
+### 🚨 Emergency Triage
 * **Instant Analysis:** Uses an NLP intent engine to analyze user input (e.g., "chest pain", "severe burns") and determine urgency.
 * **First Aid Protocols:** Displays step-by-step, visual first aid cards to stabilize patients before help arrives.
 * **Helpline Integration:** One-tap access to national emergency numbers (108, 112, 102).
