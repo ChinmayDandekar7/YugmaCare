@@ -94,4 +94,4 @@ yugmacare/
   streamlit run app.py --server.port 8502
 
 # license
-### This project is provided as-is for educational and development purposes. It is a prototype and should not be used as a replacement for professional medical advice.
+This project is provided as-is for educational and development purposes. It is a prototype and should not be used as a replacement for professional medical advice.
