@@ -27,7 +27,7 @@ A complete Streamlit-based web application for immediate medical emergency guida
 ## Installation
 
 ### 1. Clone or download the project
-bash 
+''bash 
 git clone [https://github.com/your-username/yugmacare.git](https://github.com/your-username/yugmacare.git)
 cd yugmacare
 
