@@ -50,7 +50,20 @@ def load_data():
         st.stop()
 
 e_data, s_data, t_data = load_data()
-lang = st.sidebar.selectbox("Language", ["en", "hi", "mr"])
+# Map codes to display names
+lang_map = {
+    "en": "English",
+    "hi": "Hindi",
+    "mr": "Marathi"
+}
+
+# format_func shows the full name, but 'lang' still captures "en", "hi", or "mr"
+lang = st.sidebar.selectbox(
+    "Language", 
+    options=list(lang_map.keys()), 
+    format_func=lambda x: lang_map[x]
+)
+
 texts = t_data[lang]
 
 # --- 7. UI HEADER ---
