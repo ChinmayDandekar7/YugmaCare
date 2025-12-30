@@ -124,7 +124,7 @@ if submit and description:
     st.subheader("🚨 Emergency Contacts")
     d1, d2, d3, d4 = st.columns(4)
     d1.markdown('<div class="dial-box"><a href="tel:108" class="call-link">🚑 108</a></div>', unsafe_allow_html=True)
-    d2.markdown('<div class="dial-box"><a href="tel:9343180000" class="call-link">🚑 Private</a></div>', unsafe_allow_html=True)
+    d2.markdown('<div class="dial-box"><a href="tel:1800121911911" class="call-link">🚑 Private</a></div>', unsafe_allow_html=True)
     d3.markdown('<div class="dial-box"><a href="tel:112" class="call-link">📞 112</a></div>', unsafe_allow_html=True)
     d4.markdown('<div class="dial-box"><a href="tel:102" class="call-link">👶 102</a></div>', unsafe_allow_html=True)
 
@@ -157,3 +157,4 @@ if submit and description:
     with sc2:
         st.success("Verified NGOs")
         for n in support.get("ngos", []): st.write(f"**{n['name']}** - {n['contact']}")
+
